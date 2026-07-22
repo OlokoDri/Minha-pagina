@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.conteudo,
+main {
+    width: 550px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background: rgba(10, 15, 35, 0.40);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,.12);
+
+    border-radius: 35px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.45);
+
+    transition: transform .4s;
+}
+
+.conteudo:hover,
+main:hover{
+    transform: translateY(-8px) scale(1.01);
+}
+
+img{
+    border-radius:50%;
+    border:3px solid white;
+
+    box-shadow:0 0 20px rgba(255,255,255,.35);
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('imagem/espaco.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    margin-right:10px;
+}
+
+
+h1{
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+ .videos {
+        display: grid;
+        grid-template-columns: repeat(2, 560px); /* largura fixa dos vídeos */
+        justify-content: center;                 /* centraliza as colunas */
+        gap: 20px;
+    }
+
+    video, iframe {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }

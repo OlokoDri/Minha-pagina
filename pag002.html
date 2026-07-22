@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina para teste com imagens!</title>
+</head>
+
+<body>
+    <h1>Area de teste com imagens</h1>
+    <p>Esta é a página de teste com imagens Dimamica. Vao de acordo com o tamanho da tela. Ex: Abrir em diferentes dispositivos sem problemas com a imagem.</p>
+    <p><a href="index.html" rel="prev">Voltar para a página inicial</a></p>
+
+    <picture>
+         <source media="(max-width: 750px)" srcset="imagem/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/media.png" type="image/png">
+        <img src="imagem/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio em HTML5</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/destination - Lish Grooves.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+
+</html>
