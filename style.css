@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 .conteudo,
@@ -52,6 +54,17 @@ a {
 
 h1{
     color: white;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* em HTML uso o id="principal" para o h1, então aqui no CSS uso o #principal */
+
+h1#principal{
+   color: #E6E8EB;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px rgba(255,255,255,0.2);
     font-size: 38px;
     font-weight: 700;
 }
