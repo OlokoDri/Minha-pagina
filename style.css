@@ -58,9 +58,10 @@ h1{
     font-weight: 700;
 }
 
-/* em HTML uso o id="principal" para o h1, então aqui no CSS uso o #principal */
+/* em HTML uso o class="principal" para o h1, então aqui no CSS uso
+.principal */
 
-h1#principal{
+.principal{
    color: #E6E8EB;
     text-shadow:
         0 0 5px #fff,
